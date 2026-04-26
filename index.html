@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern portfolio showcasing projects and skills">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="weather-widget" id="weatherWidget">
+            <div class="weather-info">
+                <span id="weatherTemp">--</span>
+                <span id="weatherDesc">Loading...</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <h1>Developer & Creator</h1>
+                <p id="heroDescription">Building digital experiences with modern technologies</p>
+            </div>
+            <div class="hero-visual">
+                <div class="gradient-sphere"></div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <div class="skill-card loading">
+                    <div class="skill-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card loading">
+                    <div class="project-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countries Section -->
+        <section id="countries" class="countries-section">
+            <h2>Visited Countries</h2>
+            <div class="countries-grid" id="countriesGrid">
+                <div class="country-card loading">
+                    <div class="country-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reading Section -->
+        <section id="reading" class="reading-section">
+            <h2>Currently Reading</h2>
+            <div class="reading-grid" id="readingGrid">
+                <div class="book-card loading">
+                    <div class="book-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="news-section">
+            <h2>Latest Tech News</h2>
+            <div class="news-grid" id="newsGrid">
+                <div class="news-card loading">
+                    <div class="news-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Crypto Section -->
+        <section id="crypto" class="crypto-section">
+            <h2>Crypto Assets</h2>
+            <div class="crypto-grid" id="cryptoGrid">
+                <div class="crypto-card loading">
+                    <div class="crypto-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <h2>Gallery</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item loading">
+                    <div class="gallery-placeholder"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Get in touch</p>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="mailto:contact@example.com">Email</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2026 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
+    }
+  ],
+  "env": {
+    "GITHUB_TOKEN": "@github_token",
+    "OPENWEATHER_API_KEY": "@openweather_api_key",
+    "UNSPLASH_API_KEY": "@unsplash_api_key",
+    "NEWSAPI_KEY": "@newsapi_key",
+    "GIPHY_API_KEY": "@giphy_api_key"
+  }
+}
